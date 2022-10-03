@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+
+#menu ul {
+	padding: 0px;
+	margin: 0px;
+	background-color: #EDEDED;
+	list-style: none;
+	font-size: 18px;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	font-size: 18px;
+	padding: 2px 10px;
+	display: inline-block;
+	background-color: #EDEDED;
+	color: #333;
+	text-decoration: none;
+	border-bottom: 3px solid #EDEDED;
+}
+
+#menu ul li a:hover {
+	font-size: 18px;
+	background-color: #D6D6D6;
+	color: #6D6D6D;
+	border-bottom: 3px solid #EA0000;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 40px;
+	cursor: pointer;
+}
+
+.imagem {
+	width: auto;
+	height: 100%;
+	margin-top: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.times {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.times td, .times th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.times tr:nth-child(even){background-color: #f2f2f2;}
+
+.times tr:hover {background-color: #ddd;}
+
+.times th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.div-times {
+	margin: 0px 30px;
+}
