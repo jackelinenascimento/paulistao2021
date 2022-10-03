@@ -3,7 +3,7 @@ CREATE DATABASE Paulistao
 USE Paulistao
 
 CREATE TABLE dbo.times (
-	codigoTime INT NOT NULL UNIQUE,
+	codigoTime INT NOT NULL,
 	nome VARCHAR(100),
 	cidade VARCHAR(100),
 	estadio VARCHAR (200),
@@ -13,8 +13,7 @@ CREATE TABLE dbo.times (
 
 CREATE TABLE dbo.grupos (
 	codigoTime INT UNIQUE,
-	letra VARCHAR(1),
-	PRIMARY KEY (letra),
+	letra VARCHAR(1)
 	FOREIGN KEY (codigoTime) REFERENCES times(codigoTime)
 )
 
