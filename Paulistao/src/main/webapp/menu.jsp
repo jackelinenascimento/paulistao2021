@@ -14,7 +14,10 @@
 			<li><a href="index">Home</a></li>
 			<li><a href="times">Times</a></li>
 			<li><a href="grupos">Grupos</a></li>
-			<li><a href="datas">Datas dos Jogos</a></li>
+			<li><a href="jogos">Jogos</a></li>
+			<li><a href="rodadas">Rodadas</a></li>
+			<li><a href="classificacao">Classificação</a></li>
+			<li><a href="finais">Quartas de Finais</a></li>
 		</ul>
 	</nav>
 </body>

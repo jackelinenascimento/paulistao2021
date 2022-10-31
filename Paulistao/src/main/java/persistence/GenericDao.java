@@ -11,7 +11,7 @@ public class GenericDao {
 	public Connection getConnection() throws ClassNotFoundException, SQLException {
 		
 		String hostName = "127.0.0.1";
-		String dbName = "Paulistao";
+		String dbName = "db_paulistao";
 		String user = "sa";
 		String senha = "SqlServer2019!";
 		Class.forName("net.sourceforge.jtds.jdbc.Driver");

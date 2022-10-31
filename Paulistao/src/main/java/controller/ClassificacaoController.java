@@ -8,17 +8,17 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/datas")
-public class DatasController extends HttpServlet{
+@WebServlet("/classificacao")
+public class ClassificacaoController extends HttpServlet{
 
 	private static final long serialVersionUID = 1L;
 	
-	public DatasController() {
+	public ClassificacaoController() {
 		super();
 	}
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		req.getRequestDispatcher("/datas.jsp").forward(req, resp);
+		req.getRequestDispatcher("/classificacao.jsp").forward(req, resp);
 	}
 }

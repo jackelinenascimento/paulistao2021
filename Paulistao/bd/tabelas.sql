@@ -1,24 +1,22 @@
-CREATE DATABASE Paulistao
+CREATE DATABASE db_paulistao
 
-USE Paulistao
+USE db_paulistao
 
-CREATE TABLE dbo.times (
+CREATE TABLE times (
 	codigoTime INT NOT NULL,
-	nome VARCHAR(100),
+	nomeTime VARCHAR(100),
 	cidade VARCHAR(100),
 	estadio VARCHAR (200),
 	PRIMARY KEY(codigoTime)
 )
 
-
-CREATE TABLE dbo.grupos (
-	codigoTime INT UNIQUE,
+CREATE TABLE grupos (
+	codigoTime INT,
 	letra VARCHAR(1)
 	FOREIGN KEY (codigoTime) REFERENCES times(codigoTime)
 )
 
-
-CREATE TABLE dbo.jogos (
+CREATE TABLE jogos (
 	codigoJogo	INT NOT NULL IDENTITY,
 	codigoTimeA INT NOT NULL,
 	codigoTimeB INT NOT NULL,

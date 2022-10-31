@@ -7,7 +7,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css"
 	href='<c:url value="./resources/css/styles.css"/>'>
-<title>Paulistão 2021 - Datas dos Jogos</title>
+<title>Paulistão 2021 - Classificação</title>
 </head>
 <body>
 	<div>
@@ -16,7 +16,7 @@
 	<div align="center">
 		<br />
 		<H1>Paulistão 2021</H1>
-		<H2>Datas dos Jogos</H2>
+		<H2>Classificação</H2>
 	</div>
 </body>
 </html>

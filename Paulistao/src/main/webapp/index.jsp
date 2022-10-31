@@ -17,10 +17,6 @@
 		<br />
 		<H1>Paulistão 2021</H1>
 	</div>
-	<div align="center">
-		<a href="grupos" class="button">Grupos</a>
-		<a href="datas" class="button">Datas dos Jogos</a>
-	</div>
 	<main>
 		<img class="imagem" src="./resources/img/logo.webp">
 	</main>
