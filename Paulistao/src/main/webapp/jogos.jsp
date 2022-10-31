@@ -18,7 +18,7 @@
 		<H1>Paulistão 2021</H1>
 	</div>
 	
-	<div class="jogos" align="center">
+	<div class="jogos bordertop" align="center">
 		<form action="jogos" method="post">
 			<input type="submit" class="button" id=gerar_jogos name=gerar_jogos
 				value="Gerar Jogos">

@@ -98,3 +98,12 @@ body {
 	align-items: stretch;
 	align-content: stretch;
 }
+
+.estilo-div {
+	margin-top: 70px;
+  	border-top: 1px solid #4CAF50;
+}
+
+.bordertop{
+	  border-top: 1px solid #4CAF50;
+}

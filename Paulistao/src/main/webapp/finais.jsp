@@ -16,7 +16,7 @@
 	<div align="center">
 		<br />
 		<H1>Paulistão 2021</H1>
-		<H2>Quartas de Finais</H2>
+		<H2 class="bordertop" >Quartas de Finais</H2>
 	</div>
 	<div class="quartas-de-finais">
 		<form action="finais" method="post">

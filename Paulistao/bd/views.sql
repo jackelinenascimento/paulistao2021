@@ -16,8 +16,6 @@ AS
 	LEFT JOIN times t2 ON
 	j.codigoTimeB = t2.codigoTime
 
-SELECT * FROM vwJogos ORDER BY dia
-
 --VIEW DA CLASSIFICA��O GERAL
 CREATE VIEW vwClassificacaoGeral
 AS

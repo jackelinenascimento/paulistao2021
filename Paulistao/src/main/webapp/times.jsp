@@ -16,7 +16,7 @@
 	<div align="center">
 		<br />
 		<H1>Paulistão 2021</H1>
-		<H2>Lista de Times Participantes</H2>
+		<H2 class="bordertop" >Lista de Times Participantes</H2>
 	</div>
 	<div class="div-times">
 		<table class="times">

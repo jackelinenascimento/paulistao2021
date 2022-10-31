@@ -1,7 +1,5 @@
 --FUNCTIONS
 
-USE db_paulistao
-
 --FUNCTION DE GERAR CLASSIFICA��O
 CREATE FUNCTION fn_classificacao(@letra varchar)
 RETURNS TABLE RETURN(

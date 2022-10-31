@@ -6,7 +6,7 @@ FOR DELETE, INSERT, UPDATE
 AS
 BEGIN
 	ROLLBACK TRANSACTION
-	RAISERROR('N�o � permitido alterar registros de times', 16, 1)
+	RAISERROR('Nao e permitido alterar registros de times', 16, 1)
 END
 GO
 CREATE TRIGGER t_blockInsertDeleteJogos ON jogos
@@ -14,7 +14,7 @@ AFTER INSERT, DELETE
 AS
 BEGIN
 	ROLLBACK TRANSACTION
-	RAISERROR('N�o � permitido alterar registros de Jogos', 16, 1)
+	RAISERROR('Nao e permitido alterar registros de Jogos', 16, 1)
 END
 GO
 CREATE TRIGGER t_blockUpdateInsertDeleteGrupos ON grupos
@@ -22,5 +22,5 @@ FOR UPDATE, INSERT, DELETE
 AS
 BEGIN
 	ROLLBACK TRANSACTION
-	RAISERROR('N�o � permitido alterar registros de Grupos', 16, 1)
+	RAISERROR('Nao e permitido alterar registros de Grupos', 16, 1)
 END

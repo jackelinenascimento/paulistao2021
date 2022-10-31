@@ -18,7 +18,7 @@
 		<H1>Paulistão 2021</H1>
 	</div>
 	
-		<div class="jogos">
+		<div class="jogos bordertop">
 		<form action="rodadas" method="post">
 			<input type="date" name="data">
 			<button class="button">Buscar Rodada</button>

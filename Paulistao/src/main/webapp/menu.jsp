@@ -16,8 +16,9 @@
 			<li><a href="grupos">Grupos</a></li>
 			<li><a href="jogos">Jogos</a></li>
 			<li><a href="rodadas">Rodadas</a></li>
-			<li><a href="classificacao">Classificação</a></li>
 			<li><a href="finais">Quartas de Finais</a></li>
+			<li><a href="classificacao">Classificação Geral</a></li>
+			<li><a href="classificacaoGrupo">Classificação por Grupo</a></li>			
 		</ul>
 	</nav>
 </body>

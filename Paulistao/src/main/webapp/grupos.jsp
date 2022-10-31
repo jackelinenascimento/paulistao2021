@@ -16,7 +16,7 @@
 	<div align="center">
 		<br />
 		<H1>Paulistão 2021</H1>
-		<H2>Grupos</H2>
+		<H2 class="bordertop" >Grupos</H2>
 	</div>
 
 	<div class="grupos">
